@@ -1,3 +1,2 @@
-/**
- * Created by Ryan.McDevitt on 8/15/14.
- */
+var app = angular.module('tasks', []);
+

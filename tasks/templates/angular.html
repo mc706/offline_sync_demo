@@ -9,7 +9,8 @@
 <body ng-view>
 
 </body>
-<script src="{% staticfile "lib/js/angular.min.js" %}"></script>
+<script src="{% slimfile "lib/js/vendor/angular.js" %}"></script>
+<script src="{% slimfile "lib/js/vendor/angular-route.js" %}"></script>
 <script src="{% slimfile "app/app.js" %}"></script>
 <script src="{% slimfile "app/controllers/TaskController.js" %}"></script>
 <script src="{% slimfile "app/services/TaskService.js" %}"></script>
