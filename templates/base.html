@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load django_static %}
+<html ng-app="tasks">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Offline Sync Task App</title>
+    <link href='{% slimfile "lib/css/styles.css"%}' rel="stylesheet" type="text/css">
+</head>
+<body ng-view>
+
+</body>
+<script src="{% staticfile "lib/js/angular.min.js" %}"></script>
+<script src="{% slimfile "app/app.js" %}"></script>
+<script src="{% slimfile "app/controllers/TaskController.js" %}"></script>
+<script src="{% slimfile "app/services/TaskService.js" %}"></script>
+<script src="{% slimfile "app/services/SyncService.js" %}"></script>
+</html>
