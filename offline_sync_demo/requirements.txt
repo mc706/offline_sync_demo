@@ -1,0 +1,4 @@
+Django==1.7c2
+django-static==1.5.5
+django-uuidfield==0.5.0
+wsgiref==0.1.2
