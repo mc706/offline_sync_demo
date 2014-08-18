@@ -4,10 +4,24 @@ app.service('TaskService', function () {
         getTasks: function () {
             console.log('service called');
             return [
-                {'title': 'this is a task'},
-                {'title': 'this is a task'},
-                {'title': 'this is a task'},
-                {'title': 'this is a task'}
+                {
+                    'title': 'Task1',
+                    'date_created': 'date',
+                    'completed': false,
+                    'deleted': false
+                },
+                {
+                    'title': 'Task2',
+                    'date_created': 'date',
+                    'completed': false,
+                    'deleted': false
+                },
+                {
+                    'title': 'Task3',
+                    'date_created': 'date',
+                    'completed': true,
+                    'deleted': false
+                }
             ];
         }
     };

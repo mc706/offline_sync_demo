@@ -1,4 +1,4 @@
-app.service('SyncService', function ($indexeddb) {
+app.service('TaskService', function () {
     "use strict";
     return {
         getTasks: function () {

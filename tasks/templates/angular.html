@@ -7,11 +7,13 @@
     <link href='{% slimfile "lib/css/styles.css" %}' rel="stylesheet" type="text/css">
 </head>
 <body>
+{% include "header.html" %}
 <div class="container" ng-view>
 
 </div>
 <script src="{% slimfile "lib/js/vendor/angular.js" %}"></script>
 <script src="{% slimfile "lib/js/vendor/angular-route.js" %}"></script>
+<script src="{% slimfile "lib/js/vendor/indexeddb.js" %}"></script>
 <script src="{% slimfile "app/app.js" %}"></script>
 <script src="{% slimfile "app/services/taskService.js" %}"></script>
 <script src="{% slimfile "app/services/syncService.js" %}"></script>

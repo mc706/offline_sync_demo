@@ -5,7 +5,7 @@
     <option devel="true" />
     <option indent="4" />
     <option maxerr="50" />
-    <option predef="angular, console, $, _" />
+    <option predef="angular, console, $, _, app" />
   </component>
 </project>
 
