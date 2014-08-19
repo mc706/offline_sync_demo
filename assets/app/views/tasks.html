@@ -5,16 +5,16 @@
                 <h3 class="panel-title">Tasks</h3>
             </div>
             <div class="panel-body">
-                <div class="media" ng-repeat="task in tasks">
-                    <div ng-click="toogleComplete(task)">
+                <div class="media" ng-repeat="task in tasks track by task.uuid" ng-hide="task.deleted">
+                    <div ng-click="toggleComplete(task)">
                         <i class="fa fa-4x fa-square-o pull-left" ng-hide="task.completed"></i>
                         <i class="fa fa-4x fa-check-square-o pull-left" ng-show="task.completed"></i>
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">{{ task.title }}</h4>
                         {{ task.date_created }}
-                        <div class="pull-right" ng-click="deleteTaks(task)">
-                            <i class="fa fa-times grey fa-3x"></i>
+                        <div class="pull-right" ng-click="deleteTask(task)">
+                            <i class="fa fa-times grey fa-2x"></i>
                         </div>
                     </div>
                 </div>
@@ -34,16 +34,16 @@
         <div class="page-header">
             <h2>Tasks</h2>
         </div>
-        <div class="media" ng-repeat="task in tasks">
-
-            <i class="fa fa-4x fa-square-o pull-left" ng-hide="task.completed"></i>
-            <i class="fa fa-4x fa-check-square-o pull-left" ng-show="task.completed"></i>
-
+        <div class="media" ng-repeat="task in tasks track by task.uuid" ng-hide="task.deleted">
+            <div ng-click="toggleComplete(task)">
+                <i class="fa fa-4x fa-square-o pull-left" ng-hide="task.completed"></i>
+                <i class="fa fa-4x fa-check-square-o pull-left" ng-show="task.completed"></i>
+            </div>
             <div class="media-body">
                 <h4 class="media-heading">{{ task.title }}</h4>
                 {{ task.date_created }}
-                <div class="pull-right" ng-click="deleteTaks(task)">
-                    <i class="fa fa-times grey fa-3x"></i>
+                <div class="pull-right" ng-click="deleteTask(task)">
+                    <i class="fa fa-times grey fa-2x"></i>
                 </div>
             </div>
         </div>

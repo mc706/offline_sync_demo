@@ -29,8 +29,8 @@ def sync(request):
     if request.method == "POST":
         tasks = json.loads(request.POST['tasks'])
         for task in tasks:
-            old = Task.objects.get(account=request.user, key=task['key'])
-            if old['date_modified'] < task['date_modified']:
+            old = Task.objects.get(account=request.user, key=task['uuid'])
+            if old['date_modified'] < task['timestamp']:
                 old.title = task.title
                 old.completed = task.completed
                 old.save()

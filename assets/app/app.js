@@ -1,4 +1,17 @@
-var app = angular.module('tasks', ['ngRoute', 'xc.indexedDB']);
+var app = angular.module('tasks', ['ngRoute', 'xc.indexedDB', 'uuids']);
+
+app.config(function ($indexedDBProvider) {
+    "use strict";
+    $indexedDBProvider
+        .connection('myIndexedDB')
+        .upgradeDatabase(1, function (event, db, tx) {
+            var objStore = db.createObjectStore('tasks', {keyPath: 'uuid'});
+            objStore.createIndex('title_idx', 'title', {unique: false});
+            objStore.createIndex('completed_idx', 'completed', {unique: false});
+            objStore.createIndex('deleted_idx', 'deleted', {unique: false});
+            objStore.createIndex('timestamp_idx', 'timestamp', {unique: false});
+        });
+});
 
 app.config(function ($routeProvider) {
     'use strict';
@@ -33,17 +46,5 @@ app.config(function ($routeProvider) {
         })
         .otherwise({
             redirectTo: '/'
-        });
-});
-
-app.config(function ($indexedDBProvider) {
-    $indexedDBProvider
-        .connection('myIndexedDB')
-        .upgradeDatabase(1, function (event, db, tx) {
-            var objStore = db.createObjectStore('tasks', {keyPath: 'uuid'});
-            objStore.createIndex('title_idx', 'title', {unique: false});
-            objStore.createIndex('completed_idx', 'completed', {unique: false});
-            objStore.createIndex('deleted_idx', 'deleted', {unique: false});
-            objStore.createIndex('timestamp_idx', 'timestamp', {unique: false});
         });
 });

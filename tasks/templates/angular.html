@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load django_static %}
 <html ng-app="tasks">
-<head lang="en">
+<head lang="en" manifest="lib/tasks.manifest">
     <meta charset="UTF-8">
     <title>Offline Sync Task App</title>
     <link href='{% slimfile "lib/css/styles.css" %}' rel="stylesheet" type="text/css">
@@ -14,6 +14,7 @@
 <script src="{% slimfile "lib/js/vendor/angular.js" %}"></script>
 <script src="{% slimfile "lib/js/vendor/angular-route.js" %}"></script>
 <script src="{% slimfile "lib/js/vendor/indexeddb.js" %}"></script>
+<script src="{% slimfile "lib/js/vendor/uuidService.js" %}"></script>
 <script src="{% slimfile "app/app.js" %}"></script>
 <script src="{% slimfile "app/services/taskService.js" %}"></script>
 <script src="{% slimfile "app/services/syncService.js" %}"></script>
