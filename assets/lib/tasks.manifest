@@ -1,14 +1,14 @@
 CACHE MANIFEST
 #v1
-index.html
-lib/css/styles.css
-lib/js/vendor/angular.js
-lib/js/vendor/angular-route.js
-lib/js/vendor/indexeddb.js
-app/app.js
-app/services/taskService.js
-app/services/syncService.js
-app/controllers/taskController.js
+../../index.html
+css/styles.css
+js/vendor/angular.js
+js/vendor/angular-route.js
+js/vendor/indexeddb.js
+../app/app.js
+../app/services/taskService.js
+../app/services/syncService.js
+../app/controllers/taskController.js
 
 NETWORK
 *
