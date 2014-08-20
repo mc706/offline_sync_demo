@@ -8,6 +8,9 @@ js/vendor/indexeddb.js
 ../app/services/taskService.js
 ../app/services/syncService.js
 ../app/controllers/taskController.js
+../app/views/home.html
+../app/views/tasks.html
+../app/views/task-new.html
 
 NETWORK
 *
