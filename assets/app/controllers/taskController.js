@@ -41,6 +41,6 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
         $timeout($scope.sync, 60000);
     };
 
-    $timeout($scope.sync, 10000);
+    $timeout($scope.sync, 1000);
 
 });
