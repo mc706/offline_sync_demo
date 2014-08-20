@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offline_sync_demo/settings.py" afterPath="$PROJECT_DIR$/offline_sync_demo/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/templates/angular.html" afterPath="$PROJECT_DIR$/tasks/templates/angular.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -61,11 +61,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/offline_sync_demo/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4618834" vertical-offset="1054" max-vertical-offset="1500">
-                  <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1500">
+                  <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -81,10 +81,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="syncService.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="syncService.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/services/syncService.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+                <state vertical-scroll-proportion="0.5044843" vertical-offset="0" max-vertical-offset="446">
                   <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
                   <folding />
                 </state>
@@ -145,11 +145,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="angular.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="angular.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tasks/templates/angular.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.45595855" vertical-offset="296" max-vertical-offset="705">
-                  <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+                <state vertical-scroll-proportion="0.07772021" vertical-offset="0" max-vertical-offset="705">
+                  <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -294,8 +294,8 @@
         <option value="$PROJECT_DIR$/offline_sync_demo/wsgi.py" />
         <option value="$PROJECT_DIR$/offline_sync_demo/requirements.txt" />
         <option value="$PROJECT_DIR$/accounts/templates/login.html" />
-        <option value="$PROJECT_DIR$/tasks/templates/angular.html" />
         <option value="$PROJECT_DIR$/offline_sync_demo/settings.py" />
+        <option value="$PROJECT_DIR$/tasks/templates/angular.html" />
       </list>
     </option>
   </component>
@@ -1082,7 +1082,11 @@
       <created>1408565130865</created>
       <updated>1408565130865</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="updated static">
+      <created>1408565351777</created>
+      <updated>1408565351777</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1126,7 +1130,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added readme" />
     <MESSAGE value="added tasks model" />
     <MESSAGE value="added sync hash model" />
     <MESSAGE value="added admin for tasks" />
@@ -1151,7 +1154,8 @@
     <MESSAGE value="added login and registration" />
     <MESSAGE value="updated wsgi" />
     <MESSAGE value="removed dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed dependencies" />
+    <MESSAGE value="updated static" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1365,14 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/services/syncService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="765">
@@ -1443,14 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/offline_sync_demo/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="465">
@@ -1483,18 +1471,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/templates/angular.html">
+    <entry file="file://$PROJECT_DIR$/offline_sync_demo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.45595855" vertical-offset="296" max-vertical-offset="705">
-          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1500">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/offline_sync_demo/settings.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4618834" vertical-offset="1054" max-vertical-offset="1500">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/services/syncService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5044843" vertical-offset="0" max-vertical-offset="446">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/templates/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07772021" vertical-offset="0" max-vertical-offset="705">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>
