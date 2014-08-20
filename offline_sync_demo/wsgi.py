@@ -14,8 +14,8 @@ site.addsitedir('~/.virtualenvs/offline/lib/python2.7/site-packages')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "offline_sync_demo.settings")
 
-activate_this = os.path.expanduser("~/.virtualenvs/offline/bin/activate_this.py")
-execfile(activate_this, dict(__file__=activate_this))
+#activate_this = os.path.expanduser("~/.virtualenvs/offline/bin/activate_this.py")
+#execfile(activate_this, dict(__file__=activate_this))
 
 # Calculate the path based on the location of the WSGI script
 workspace = os.path.abspath(os.path.dirname(__name__))
