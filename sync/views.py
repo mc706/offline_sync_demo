@@ -12,7 +12,8 @@ def sync(request):
     Takes the post of the json object, and syncs according to last date_modified per UUID
     """
     if request.method == "POST":
-        tasks = json.loads(request.body)
+        str_response = request.body.readall().decode('utf-8')
+        tasks = json.loads(str_response)
         for task in tasks:
             try:
                 old = Task.objects.get(account=request.user, key=task['uuid'])
