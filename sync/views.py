@@ -12,7 +12,7 @@ def sync(request):
     Takes the post of the json object, and syncs according to last date_modified per UUID
     """
     if request.method == "POST":
-        str_response = request.body.readall().decode('utf-8')
+        str_response = request.body.read().decode('utf-8')
         tasks = json.loads(str_response)
         for task in tasks:
             try:
