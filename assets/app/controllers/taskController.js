@@ -25,17 +25,17 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
     };
 
     $scope.sync = function () {
-        var matched;
+        var newly;
         SyncService.sync($scope.tasks).then(function (data) {
             angular.forEach(data, function (task) {
-                matched = false;
+                newly = false;
                 angular.forEach($scope.tasks, function (t) {
                     if (t.uuid === task.uuid && task.timestamp > t.timestamp) {
-                        matched = true;
+                        newly = true;
                         TaskService.updateTask(task);
                     }
                 });
-                if (!matched) {
+                if (!newly) {
                     TaskService.updateTask(task);
                 }
             });

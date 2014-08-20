@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/controllers/taskController.js" afterPath="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/tasks.manifest" afterPath="$PROJECT_DIR$/assets/lib/tasks.manifest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -30,11 +29,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.59086996">
       <split-first>
         <leaf>
-          <file leaf-file-name="taskController.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6882217" vertical-offset="272" max-vertical-offset="855">
-                  <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.23787528" vertical-offset="302" max-vertical-offset="855">
+                  <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -156,7 +155,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tasks.manifest" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
@@ -295,8 +294,8 @@
         <option value="$PROJECT_DIR$/accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/offline_sync_demo/urls.py" />
         <option value="$PROJECT_DIR$/sync/views.py" />
-        <option value="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
         <option value="$PROJECT_DIR$/assets/lib/tasks.manifest" />
+        <option value="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
       </list>
     </option>
   </component>
@@ -1139,7 +1138,11 @@
       <created>1408568679662</created>
       <updated>1408568679662</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updated sync logic">
+      <created>1408570033645</created>
+      <updated>1408570033645</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1183,7 +1186,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added first iteration of sync and poll" />
     <MESSAGE value="added tasks json template" />
     <MESSAGE value="added requirements" />
     <MESSAGE value="added angular shell" />
@@ -1208,7 +1210,8 @@
     <MESSAGE value="updated json for python3.4" />
     <MESSAGE value="updated manifest" />
     <MESSAGE value="updated sync to happend sooner" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated sync to happend sooner" />
+    <MESSAGE value="updated sync logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated sync logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1540,18 +1543,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6882217" vertical-offset="272" max-vertical-offset="855">
-          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23787528" vertical-offset="302" max-vertical-offset="855">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
