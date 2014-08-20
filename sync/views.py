@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from tasks.models import Task
 
 
-@login_required
+@login_required(login_url='/login/')
 def sync(request):
     """
     Takes the post of the json object, and syncs according to last date_modified per UUID
