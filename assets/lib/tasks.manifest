@@ -1,6 +1,5 @@
 CACHE MANIFEST
 #v1
-../../index.html
 css/styles.css
 js/vendor/angular.js
 js/vendor/angular-route.js
