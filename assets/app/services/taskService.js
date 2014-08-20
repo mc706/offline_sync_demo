@@ -21,6 +21,9 @@ app.service('TaskService', function ($indexedDB, rfc4122) {
         updateTask: function (data) {
             data.timestamp = Date.now();
             return myObjectStore.upsert(data);
+        },
+        deleteTask: function (data) {
+            return myObjectStore.delete(data.uuid);
         }
     };
 });

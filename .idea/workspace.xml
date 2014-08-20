@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/controllers/taskController.js" afterPath="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/services/taskService.js" afterPath="$PROJECT_DIR$/assets/app/services/taskService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -29,7 +29,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.59086996">
       <split-first>
         <leaf>
-          <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="taskController.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.8960739" vertical-offset="302" max-vertical-offset="870">
@@ -138,7 +138,7 @@
           <file leaf-file-name="indexeddb.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/lib/js/vendor/indexeddb.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="3990" max-vertical-offset="10905">
+                <state vertical-scroll-proportion="0.0" vertical-offset="4365" max-vertical-offset="10905">
                   <caret line="389" column="34" selection-start-line="389" selection-start-column="34" selection-end-line="389" selection-end-column="48" />
                   <folding />
                 </state>
@@ -155,10 +155,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
                   <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                   <folding />
                 </state>
@@ -175,11 +175,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="taskService.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="taskService.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.81707317" vertical-offset="85" max-vertical-offset="510">
+                  <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -282,7 +282,6 @@
         <option value="$PROJECT_DIR$/tasks/models.py" />
         <option value="$PROJECT_DIR$/tasks/admin.py" />
         <option value="$PROJECT_DIR$/sync/templates/task.json" />
-        <option value="$PROJECT_DIR$/assets/app/services/taskService.js" />
         <option value="$PROJECT_DIR$/tasks/views.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -296,6 +295,7 @@
         <option value="$PROJECT_DIR$/sync/views.py" />
         <option value="$PROJECT_DIR$/assets/lib/tasks.manifest" />
         <option value="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
+        <option value="$PROJECT_DIR$/assets/app/services/taskService.js" />
       </list>
     </option>
   </component>
@@ -1146,7 +1146,11 @@
       <created>1408571842060</created>
       <updated>1408571842060</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added apply">
+      <created>1408571948937</created>
+      <updated>1408571948937</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1190,7 +1194,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added requirements" />
     <MESSAGE value="added angular shell" />
     <MESSAGE value="added base html" />
     <MESSAGE value="added home page" />
@@ -1215,7 +1218,8 @@
     <MESSAGE value="updated sync to happend sooner" />
     <MESSAGE value="updated sync logic" />
     <MESSAGE value="changed var name" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed var name" />
+    <MESSAGE value="added apply" />
+    <option name="LAST_COMMIT_MESSAGE" value="added apply" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1421,14 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -1467,14 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="21.083334" vertical-offset="521" max-vertical-offset="930">
           <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/js/vendor/indexeddb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3990" max-vertical-offset="10905">
-          <caret line="389" column="34" selection-start-line="389" selection-start-column="34" selection-end-line="389" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1549,7 +1537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
@@ -1559,6 +1547,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8960739" vertical-offset="302" max-vertical-offset="870">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/js/vendor/indexeddb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3990" max-vertical-offset="10905">
+          <caret line="389" column="34" selection-start-line="389" selection-start-column="34" selection-end-line="389" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81707317" vertical-offset="85" max-vertical-offset="510">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
           <folding />
         </state>
       </provider>
