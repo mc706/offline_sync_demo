@@ -159,7 +159,7 @@
             <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.33632287" vertical-offset="0" max-vertical-offset="446">
-                  <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -1126,7 +1126,11 @@
       <created>1408567993375</created>
       <updated>1408567993375</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="updated manifest">
+      <created>1408568352800</created>
+      <updated>1408568352800</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1538,7 +1542,7 @@
     <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33632287" vertical-offset="0" max-vertical-offset="446">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -6,9 +6,9 @@ js/vendor/angular-route.js
 js/vendor/angular-cookie.min.js
 js/vendor/uuidService.js
 js/vendor/indexeddb.js
-fonts/fontawesome-webfont.woff
-fonts/fontawesome-webfont.ttf
-fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.woff?v=4.1.0
+fonts/fontawesome-webfont.ttf?v=4.1.0
+fonts/fontawesome-webfont.svg?v=4.1.0
 ../app/app.js
 ../app/services/taskService.js
 ../app/services/syncService.js
