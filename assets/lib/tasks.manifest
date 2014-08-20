@@ -3,6 +3,8 @@ CACHE MANIFEST
 css/styles.css
 js/vendor/angular.js
 js/vendor/angular-route.js
+js/vendor/angular-cookie.min.js
+js/vendor/uuidService.js
 js/vendor/indexeddb.js
 ../app/app.js
 ../app/services/taskService.js
