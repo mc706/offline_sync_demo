@@ -1,0 +1,16 @@
+CACHE MANIFEST
+#v1
+index.html
+lib/css/styles.css
+lib/js/vendor/angular.js
+lib/js/vendor/angular-route.js
+lib/js/vendor/indexeddb.js
+app/app.js
+app/services/taskService.js
+app/services/syncService.js
+app/controllers/taskController.js
+
+NETWORK
+*
+
+FALLBACK

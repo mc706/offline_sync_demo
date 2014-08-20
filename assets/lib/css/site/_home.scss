@@ -1,0 +1,15 @@
+.page-home {
+  .media-body {
+    position: relative;
+    div{
+      position: absolute;
+      top:0;
+      right:0;
+    }
+  }
+  .media {
+    a{
+      color: #000000;
+    }
+  }
+}
