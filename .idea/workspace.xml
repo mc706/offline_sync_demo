@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/views/task-new.html" afterPath="$PROJECT_DIR$/assets/app/views/task-new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/views/home.html" afterPath="$PROJECT_DIR$/assets/app/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/views/tasks.html" afterPath="$PROJECT_DIR$/assets/app/views/tasks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -61,26 +61,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/offline_sync_demo/settings.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1500">
-                  <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/offline_sync_demo/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
-                  <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="syncService.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/app/services/syncService.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +101,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="task-new.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="task-new.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/app/views/task-new.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.09819967" vertical-offset="0" max-vertical-offset="611">
+                <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
                   <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tasks.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/app/views/tasks.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+                  <caret line="22" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/app/views/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.9006928" vertical-offset="0" max-vertical-offset="480">
+                  <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -148,7 +148,7 @@
           <file leaf-file-name="angular.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tasks/templates/angular.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.051039696" vertical-offset="78" max-vertical-offset="735">
+                <state vertical-scroll-proportion="0.079178885" vertical-offset="78" max-vertical-offset="735">
                   <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
                   <folding />
                 </state>
@@ -270,8 +270,6 @@
         <option value="$PROJECT_DIR$/assets/lib/css/site/_new-task.scss" />
         <option value="$PROJECT_DIR$/assets/lib/js/vendor/indexeddb.js" />
         <option value="$PROJECT_DIR$/assets/app/services/uuidService.js" />
-        <option value="$PROJECT_DIR$/assets/app/views/home.html" />
-        <option value="$PROJECT_DIR$/assets/app/views/tasks.html" />
         <option value="$PROJECT_DIR$/assets/app/views/test.html" />
         <option value="$PROJECT_DIR$/assets/app/services/syncService.js" />
         <option value="$PROJECT_DIR$/assets/app/app.js" />
@@ -295,6 +293,8 @@
         <option value="$PROJECT_DIR$/accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/accounts/templates/login.html" />
         <option value="$PROJECT_DIR$/assets/app/views/task-new.html" />
+        <option value="$PROJECT_DIR$/assets/app/views/tasks.html" />
+        <option value="$PROJECT_DIR$/assets/app/views/home.html" />
       </list>
     </option>
   </component>
@@ -1157,7 +1157,11 @@
       <created>1408576449393</created>
       <updated>1408576449393</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated spacing on new">
+      <created>1408576858057</created>
+      <updated>1408576858057</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1176,7 +1180,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26657262" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2651622" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32863188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1201,7 +1205,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added home page" />
     <MESSAGE value="updated settings and urls" />
     <MESSAGE value="updated static resources" />
     <MESSAGE value="updated angular app" />
@@ -1226,7 +1229,8 @@
     <MESSAGE value="added apply" />
     <MESSAGE value="added delete key" />
     <MESSAGE value="updated viewport" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated viewport" />
+    <MESSAGE value="updated spacing on new" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated spacing on new" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1388,6 +1392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,21 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/views/tasks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.083334" vertical-offset="427" max-vertical-offset="975">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4583335" vertical-offset="241" max-vertical-offset="975">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1615,7 +1605,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks/templates/angular.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051039696" vertical-offset="78" max-vertical-offset="735">
+        <state vertical-scroll-proportion="0.079178885" vertical-offset="78" max-vertical-offset="735">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
         </state>
@@ -1631,8 +1621,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/views/task-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09819967" vertical-offset="0" max-vertical-offset="611">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/views/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+          <caret line="22" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9006928" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding />
         </state>
       </provider>
