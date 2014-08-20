@@ -11,10 +11,3 @@ js/vendor/indexeddb.js
 ../app/views/home.html
 ../app/views/tasks.html
 ../app/views/task-new.html
-
-
-NETWORK
-*
-
-
-FALLBACK
