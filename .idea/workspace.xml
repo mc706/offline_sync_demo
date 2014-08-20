@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/controllers/taskController.js" afterPath="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/tasks.manifest" afterPath="$PROJECT_DIR$/assets/lib/tasks.manifest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -26,14 +27,14 @@
     <favorites_list name="offline_sync_demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4883721">
+    <splitter split-orientation="horizontal" split-proportion="0.59086996">
       <split-first>
         <leaf>
-          <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="taskController.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8614319" vertical-offset="272" max-vertical-offset="765">
-                  <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.6882217" vertical-offset="272" max-vertical-offset="855">
+                  <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -155,11 +156,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="tasks.manifest" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33632287" vertical-offset="0" max-vertical-offset="446">
-                  <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+                <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
+                  <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -294,8 +295,8 @@
         <option value="$PROJECT_DIR$/accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/offline_sync_demo/urls.py" />
         <option value="$PROJECT_DIR$/sync/views.py" />
-        <option value="$PROJECT_DIR$/assets/lib/tasks.manifest" />
         <option value="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
+        <option value="$PROJECT_DIR$/assets/lib/tasks.manifest" />
       </list>
     </option>
   </component>
@@ -1134,7 +1135,11 @@
       <created>1408568528887</created>
       <updated>1408568528887</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updated sync to happend sooner">
+      <created>1408568679662</created>
+      <updated>1408568679662</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1178,7 +1183,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added Hash to admin" />
     <MESSAGE value="added first iteration of sync and poll" />
     <MESSAGE value="added tasks json template" />
     <MESSAGE value="added requirements" />
@@ -1203,7 +1207,8 @@
     <MESSAGE value="updated register" />
     <MESSAGE value="updated json for python3.4" />
     <MESSAGE value="updated manifest" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated manifest" />
+    <MESSAGE value="updated sync to happend sooner" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated sync to happend sooner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1535,18 +1540,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
+    <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33632287" vertical-offset="0" max-vertical-offset="446">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.6882217" vertical-offset="272" max-vertical-offset="855">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
+    <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8614319" vertical-offset="272" max-vertical-offset="765">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.6028369" vertical-offset="0" max-vertical-offset="423">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
