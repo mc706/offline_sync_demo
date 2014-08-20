@@ -1,4 +1,9 @@
-var app = angular.module('tasks', ['ngRoute', 'xc.indexedDB', 'uuids']);
+var app = angular.module('tasks', ["ngCookies", 'ngRoute', 'xc.indexedDB', 'uuids']);
+
+app.run(function ($http, $cookies) {
+    "use strict";
+    $http.defaults.headers.common['X-CSRFToken'] = $cookies.csrftoken;
+});
 
 app.config(function ($indexedDBProvider) {
     "use strict";

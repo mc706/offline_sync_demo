@@ -3,5 +3,5 @@
     "title":"{{task.title}}",
     "completed":{%if task.completed%}true{%else%}false{%endif%},
     "deleted":{%if task.deleted%}true{%else%}false{%endif%},
-    "timestamp":"{{task.date_modified|date:"U"}}"
+    "timestamp":{{task.date_modified}}
 }

@@ -3,7 +3,7 @@ from tasks.models import Task
 
 
 class TaskAdmin(admin.ModelAdmin):
-    list_display = ['key', 'account', 'title', 'completed']
+    list_display = ['key', 'account', 'title', 'completed', 'deleted', 'date_modified']
     search_fields = ['title']
     list_filter = ['account', 'completed']
 

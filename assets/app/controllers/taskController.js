@@ -1,4 +1,4 @@
-app.controller('TaskController', function ($scope, $location, $timeout, TaskService, tasks) {
+app.controller('TaskController', function ($scope, $location, $timeout, TaskService, SyncService, tasks) {
     "use strict";
 
     $scope.tasks = tasks;
@@ -23,5 +23,24 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
         task.deleted = true;
         TaskService.updateTask(task);
     };
+
+    $scope.sync = function () {
+        SyncService.sync($scope.tasks).then(function (data) {
+            angular.forEach(data, function (task) {
+                angular.forEach($scope.tasks, function (t) {
+                    if (t.uuid === task.uuid && task.timestamp > t.timestamp){
+                        TaskService.updateTask(task);
+                    }
+                });
+            });
+        });
+        TaskService.getTasks().then(function (data) {
+            $scope.tasks = data;
+        });
+
+        $timeout($scope.sync, 10000);
+    };
+
+    $timeout($scope.sync, 5000);
 
 });
