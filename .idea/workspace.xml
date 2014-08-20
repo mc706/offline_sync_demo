@@ -32,8 +32,8 @@
           <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.23787528" vertical-offset="302" max-vertical-offset="855">
-                  <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.8960739" vertical-offset="302" max-vertical-offset="870">
+                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -1142,7 +1142,11 @@
       <created>1408570033645</created>
       <updated>1408570033645</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="changed var name">
+      <created>1408571842060</created>
+      <updated>1408571842060</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1186,7 +1190,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added tasks json template" />
     <MESSAGE value="added requirements" />
     <MESSAGE value="added angular shell" />
     <MESSAGE value="added base html" />
@@ -1211,7 +1214,8 @@
     <MESSAGE value="updated manifest" />
     <MESSAGE value="updated sync to happend sooner" />
     <MESSAGE value="updated sync logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated sync logic" />
+    <MESSAGE value="changed var name" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed var name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1553,8 +1557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23787528" vertical-offset="302" max-vertical-offset="855">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.8960739" vertical-offset="302" max-vertical-offset="870">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
