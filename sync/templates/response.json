@@ -1,0 +1,4 @@
+{
+    "tasks": {% include "tasks.json" with tasks=tasks %},
+    "deleted": [{% for del in deleted%}"{{del.key}}"{%if not forloop.last%},{%endif%}{%endfor%}]
+}

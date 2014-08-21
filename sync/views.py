@@ -22,6 +22,8 @@ def sync(request):
                     old.date_modified = int(task['timestamp'])
                     old.deleted = task['deleted']
                     old.save()
+                    if old.deleted:
+                        old.deleted()
             except Exception as ex:
                 # print ex
                 try:
@@ -36,7 +38,8 @@ def sync(request):
                     pass
             # print inner
         updated_tasks = Task.objects.filter(account=request.user)
+        deleted = [task.key for task in Task.objects.filter(account=request.user, deleted=True)]
         return HttpResponse(status=201, content_type="application/json",
-                            content=render(request, 'tasks.json', {'tasks': updated_tasks}))
+                            content=render(request, 'response.json', {'tasks': updated_tasks, 'deleted': deleted}))
     else:
         return HttpResponse(status=403)

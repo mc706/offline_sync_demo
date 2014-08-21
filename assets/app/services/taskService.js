@@ -18,12 +18,14 @@ app.service('TaskService', function ($indexedDB, rfc4122) {
                 timestamp: timestamp
             });
         },
-        updateTask: function (data) {
-            data.timestamp = Date.now();
+        updateTask: function (data, update) {
+            if (update) {
+                data.timestamp = Date.now();
+            }
             return myObjectStore.upsert(data);
         },
         deleteTask: function (data) {
-            return myObjectStore.delete(data.uuid);
+            return typeof data === "object" ? myObjectStore.delete(data.uuid) : myObjectStore.delete(data);
         }
     };
 });

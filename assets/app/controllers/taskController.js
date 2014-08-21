@@ -16,27 +16,35 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
         console.log(task);
 
         task.completed = !task.completed;
-        TaskService.updateTask(task);
+        TaskService.updateTask(task, true);
     };
 
     $scope.deleteTask = function (task) {
         task.deleted = true;
-        TaskService.updateTask(task);
+        TaskService.updateTask(task, true);
     };
 
     $scope.sync = function () {
         var newly;
         SyncService.sync($scope.tasks).then(function (data) {
-            angular.forEach(data, function (task) {
+            angular.forEach(data.deleted, function (del) {
+                TaskService.deleteTask(del);
+            });
+            angular.forEach(data.tasks, function (task) {
                 newly = false;
                 angular.forEach($scope.tasks, function (t) {
                     if (t.uuid === task.uuid && task.timestamp > t.timestamp) {
+                        console.log('updating:', task.uuid);
                         newly = true;
-                        TaskService.updateTask(task);
+                        TaskService.updateTask(task, false);
+                    }
+                    if (t.uuid === task.uuid) {
+                        newly = true;
                     }
                 });
                 if (!newly) {
-                    TaskService.updateTask(task);
+                    console.log('creating locally:', task.uuid);
+                    TaskService.updateTask(task, false);
                 }
             });
         });
@@ -44,7 +52,7 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
             $scope.tasks = data;
         });
 
-        $timeout($scope.sync, 60000);
+        $timeout($scope.sync, 5000);
     };
 
     $timeout($scope.sync, 1000);

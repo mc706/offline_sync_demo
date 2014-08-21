@@ -1,8 +1,27 @@
-<div class="container">
+<div class="container page-home">
     <div class="page-header">
-        <h1>Welcome to your Task List!!</h1>
+        <h2>Tasks</h2>
     </div>
-    <ul>
-        <li ng-repeat="task in tasks">{{ task.title }}</li>
-    </ul>
+    <div class="media" ng-repeat="task in tasks track by task.uuid" ng-hide="task.deleted">
+        <div ng-click="toggleComplete(task)">
+            <i class="fa fa-4x fa-square-o pull-left" ng-hide="task.completed"></i>
+            <i class="fa fa-4x fa-check-square-o pull-left" ng-show="task.completed"></i>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">{{ task.title }}</h4>
+            {{ task.date_created }}
+            <div class="pull-right" ng-click="deleteTask(task)">
+                <i class="fa fa-times grey fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="media">
+        <a href="#/tasks/new">
+            <i class="fa fa-4x fa-plus pull-left"></i>
+        </a>
+
+        <div class="media-body">
+            <h4 class="media-heading">New Task</h4>
+        </div>
+    </div>
 </div>
