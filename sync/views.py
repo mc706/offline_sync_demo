@@ -25,7 +25,7 @@ def sync(request):
                     if old.deleted:
                         old.deleted()
             except Exception as ex:
-                # print ex
+                print ex
                 try:
                     if task['uuid'] != "":
                         Task.objects.create(
@@ -35,9 +35,9 @@ def sync(request):
                             date_modified=task['timestamp']
                         ).save()
                 except Exception as inner:
-                    pass
-            # print inner
+                    print inner
         updated_tasks = Task.objects.filter(account=request.user)
+        print updated_tasks
         deleted = [task.key for task in Task.objects.filter(account=request.user, deleted=True)]
         return HttpResponse(status=201, content_type="application/json",
                             content=render(request, 'response.json', {'tasks': updated_tasks, 'deleted': deleted}))
