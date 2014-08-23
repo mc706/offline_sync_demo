@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/views/home.html" afterPath="$PROJECT_DIR$/assets/app/views/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/controllers/taskController.js" afterPath="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/views/tasks.html" afterPath="$PROJECT_DIR$/assets/app/views/tasks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/lib/tasks.manifest" afterPath="$PROJECT_DIR$/assets/lib/tasks.manifest" />
+    <list default="true" id="fbe43f7b-7690-448c-abbd-a04df005c0f8" name="Default" comment="removed print statements">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sync/views.py" afterPath="$PROJECT_DIR$/sync/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2d703887-3ff6-4d10-a1e6-e8634935b48f" name="Failed commit: Default" comment="added new pages and header" />
@@ -32,7 +29,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5885417">
       <split-first>
         <leaf>
-          <file leaf-file-name="taskController.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="taskController.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/assets/app/controllers/taskController.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.73472667" vertical-offset="353" max-vertical-offset="975">
@@ -146,10 +143,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="tasks.manifest" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
                   <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
                   <folding />
                 </state>
@@ -169,20 +166,18 @@
           <file leaf-file-name="taskService.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="540">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
                   <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-                  <folding>
-                    <marker date="1408651732000" expanded="true" signature="858:977" placeholder="{...}" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sync/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-                  <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.72621036" vertical-offset="45" max-vertical-offset="690">
+                  <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -291,11 +286,11 @@
         <option value="$PROJECT_DIR$/offline_sync_demo/settings.py" />
         <option value="$PROJECT_DIR$/offline_sync_demo/wsgi.py" />
         <option value="$PROJECT_DIR$/tasks/admin.py" />
-        <option value="$PROJECT_DIR$/sync/views.py" />
         <option value="$PROJECT_DIR$/assets/app/views/home.html" />
         <option value="$PROJECT_DIR$/assets/app/views/tasks.html" />
         <option value="$PROJECT_DIR$/assets/lib/tasks.manifest" />
         <option value="$PROJECT_DIR$/assets/app/controllers/taskController.js" />
+        <option value="$PROJECT_DIR$/sync/views.py" />
       </list>
     </option>
   </component>
@@ -1168,7 +1163,11 @@
       <created>1408753857218</created>
       <updated>1408753857218</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update for production sync">
+      <created>1408754420328</created>
+      <updated>1408754420328</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1212,7 +1211,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="updated cached app" />
     <MESSAGE value="finished sync" />
     <MESSAGE value="added login and updated settings" />
     <MESSAGE value="added login and registration" />
@@ -1237,7 +1235,8 @@
     <MESSAGE value="updated admin" />
     <MESSAGE value="added debug" />
     <MESSAGE value="updated to python3 debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated to python3 debug" />
+    <MESSAGE value="update for production sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for production sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1263,9 +1262,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="510">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding>
-            <marker date="1408651732000" expanded="true" signature="858:977" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,16 +1554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="540">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1408651732000" expanded="true" signature="858:977" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sync/templates/response.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="135">
@@ -1607,14 +1594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sync/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="480">
@@ -1633,7 +1612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/lib/tasks.manifest">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.024509804" vertical-offset="0" max-vertical-offset="612">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
           <folding />
         </state>
@@ -1643,6 +1622,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73472667" vertical-offset="353" max-vertical-offset="975">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/services/taskService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="540">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sync/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72621036" vertical-offset="45" max-vertical-offset="690">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding />
         </state>
       </provider>
