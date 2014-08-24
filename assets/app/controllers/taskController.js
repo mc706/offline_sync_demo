@@ -28,6 +28,7 @@ app.controller('TaskController', function ($scope, $location, $timeout, TaskServ
         var newly;
         SyncService.sync($scope.tasks).then(function (data) {
             angular.forEach(data.deleted, function (del) {
+                console.log('deleting', del);
                 TaskService.deleteTask(del);
             });
             angular.forEach(data.tasks, function (task) {
